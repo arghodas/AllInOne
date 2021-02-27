@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity"
+    android:background="@drawable/map_wall">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="3">
+
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:hint="Enter City name"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:background="@drawable/edittext_rounded_corners" />
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/searchbutton"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:shadowColor="#00BCD4"
+            android:text="Show Map"
+            android:background="@drawable/button_rounded_corners">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

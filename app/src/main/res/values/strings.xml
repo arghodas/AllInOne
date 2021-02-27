@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">All In One</string>
+    <string name="age">Age</string>
+    <string name="Text1">Enter first number</string>
+    <string name="Text2">Enter second number</string>
+    <string name="add">Add</string>
+    <string name="sub">Sub</string>
+    <string name="title_activity_location">Map</string>
+</resources>
